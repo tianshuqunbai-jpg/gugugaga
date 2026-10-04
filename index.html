@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- viewport-fit=cover：让 env(safe-area-inset-*) 生效，手机上能避开刘海和底部手势条 -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta name="theme-color" content="#04050e" />
+    <!-- 手机版：禁止下拉刷新/橡皮筋滚动，否则在 WebView 里不像原生 app -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="description" content="星语 StarVox —— 基于 DeepSeek V4 的 AI 灵魂伙伴聊天站" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>星语 StarVox · 与你的 AI 灵魂伙伴对话</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

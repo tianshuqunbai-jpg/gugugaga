@@ -1,0 +1,35 @@
+:root {
+  --bg-0: #04050e;
+  --bg-1: #070919;
+  --bg-2: #0b0e24;
+  --surface: rgba(255, 255, 255, 0.045);
+  --surface-2: rgba(255, 255, 255, 0.08);
+  --surface-3: rgba(255, 255, 255, 0.13);
+  --border: rgba(255, 255, 255, 0.1);
+  --border-strong: rgba(255, 255, 255, 0.2);
+  --text-1: #f2f5ff;
+  --text-2: #aeb6d8;
+  --text-3: #68719c;
+  --cyan: #38e0f5;
+  --violet: #8b5cf6;
+  --fuchsia: #e879f9;
+  --gold: #f6c96b;
+  --blue: #4f7cff;
+  --danger: #fb7185;
+  --success: #34d399;
+  --warning: #fbbf24;
+  --grad-main: linear-gradient(120deg, #38e0f5 0%, #7c8cff 36%, #a06bff 64%, #e879f9 100%);
+  --grad-text: linear-gradient(100deg, #7fe9ff 0%, #9db4ff 34%, #c79bff 66%, #ffb3f7 100%);
+  --grad-user: linear-gradient(135deg, #2f6cff 0%, #7c4dff 100%);
+  --grad-heart: linear-gradient(135deg, #fb7185 0%, #e879f9 100%);
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 30px;
+  --shadow-1: 0 22px 60px rgba(2, 4, 18, 0.55);
+  --shadow-glow-cyan: 0 8px 34px rgba(56, 224, 245, 0.28);
+  --shadow-glow-violet: 0 8px 34px rgba(139, 92, 246, 0.32);
+  --font-ui: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif;
+  --font-mono: 'Cascadia Code', 'JetBrains Mono', Consolas, 'Courier New', monospace;
+  --nav-h: 68px;
+}

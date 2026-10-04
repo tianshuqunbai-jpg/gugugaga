@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FileProvider 可共享路径。
+     Capacitor 模板默认给的是 <external-path path="." />，等于把整个外部存储根目录
+     纳入"可授权"范围，而本 app 完全不用外部存储 —— 已移除。
+     只保留 app 私有 cache 下的临时文件（导出/分享用），范围收窄。
+     provider 本身是 exported=false + grantUriPermissions=true，
+     所以只有拿到显式 URI 授权的 app 才能读到这里的东西。 -->
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <cache-path name="shared_cache" path="shared/" />
+</paths>

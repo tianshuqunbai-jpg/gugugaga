@@ -1,0 +1,13 @@
+{
+  "appId": "com.xingyu.app",
+  "appName": "星语 StarVox",
+  "webDir": "dist",
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}

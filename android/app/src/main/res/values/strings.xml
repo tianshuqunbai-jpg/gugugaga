@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">星语 StarVox</string>
+    <string name="title_activity_main">星语 StarVox</string>
+    <string name="package_name">com.xingyu.app</string>
+    <string name="custom_url_scheme">com.xingyu.app</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 备份/数据迁移排除规则：与 android:allowBackup="false" 配合，
+     确保新旧 Android 版本都不会把 app 数据（API Key、聊天记录、长期记忆）带出设备。
+     API 31+ 用 dataExtractionRules，API 30 及以下用 fullBackupContent。 -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="root" />
+        <exclude domain="database" />
+        <exclude domain="sharedpref" />
+        <exclude domain="file" />
+        <exclude domain="external" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="root" />
+        <exclude domain="database" />
+        <exclude domain="sharedpref" />
+        <exclude domain="file" />
+        <exclude domain="external" />
+    </device-transfer>
+</data-extraction-rules>
